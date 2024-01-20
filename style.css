@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    background-image: url("image/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.logo {
+    width: 100px;
+    height: 100px;
+    margin: 8px;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 0, 0, 0);
+    color: white;
+    padding: 10px;
+    height: 10%;
+}
+.navbar ul {
+    list-style: none;
+    display: flex;
+}
+.navbar ul li {
+    margin: 10px;
+}
+.navbar ul li a {
+    color: #5c0009;
+    text-decoration: none;
+    transition: filter 0.3s;
+    font-size: 25px;
+    font-family: open_sanssemibold;
+    margin: 0 30px;
+}
+.navbar ul li a:hover {
+    color: #f15822;
+}
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    background-image: url("apple-juice.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.banner h1 {
+    font-size: 60px;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+.content {
+    padding: 20px;
+}
+.content h2 {
+    font-size: 40px;
+    color: #EAAC8B;
+    margin-bottom: 20px;
+}
+.content p {
+    font-size: 20px;
+    color: #333333;
+    margin-bottom: 20px;
+}
+.content .products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.content .products .product {
+    width: 300px;
+    height: 400px;
+    border: 1px solid #EAAC8B;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.content .products .product:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px #EAAC8B;
+}
+.content .products .product img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.content .products .product .info {
+    padding: 10px;
+}
+.content .products .product .info h3 {
+    font-size: 25px;
+    color: #EAAC8B;
+    margin-bottom: 10px;
+}
+.content .products .product .info p {
+    font-size: 15px;
+    color: #333333;
+    margin-bottom: 10px;
+}
+.content .products .product .info .price {
+    font-size: 20px;
+    color: #EAAC8B;
+    font-weight: bold;
+}
+.content .products .product .info .button {
+    display: block;
+    width: 100%;
+    height: 40px;
+    background-color: #EAAC8B;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+}
+.content .products .product .info .button:hover {
+    background-color: #f0f0f0;
+    color: #EAAC8B;
+}
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: #5c0009;
+    padding: 10px;
+}
+.footer .social {
+    display: flex;
+    gap: 10px;
+}
+.footer .social img {
+    width: 40px;
+    height: 40px;
+}
+.reasons {
+    margin: -10px;
+
+}
+.block2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("image/backblock.jpg");
+    color: black;
+    height: 400px;
+    width: 100%;
+
+}
+.block2 h1 {
+    max-width: 420px;
+    font-family: Candara;
+    font-size: 35px;
+
+}
+.prichina1 {
+    padding-left: 10%;
+}
+.prichina2 {
+    margin-left: 50%;
+}
+.prichina3 {
+    margin-left: 10%;
+}
+.prichina4 {
+    margin-left: 50%;
+}
+.prichina5 {
+    margin-left: 10% ;
+}
+.prichina6 {
+    margin-left: 30%;
+}
+.block3 {
+    display: flex;
+    align-items: end;
+    background-image: url("image/backblock.jpg");
+    color: black;
+    height: 400px;
+    width: 100%;
+}
+.prichina7 {
+}
+.packaging {
+    margin-top: 200px;
+    z-index: 2;
+}
+.board {
+    z-index: 1;
+}
